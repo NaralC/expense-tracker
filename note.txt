@@ -1,4 +1,12 @@
+One time:
 - npx prisma init
 - npx prisma generate, to get the connection client
+
+Repeat:
 - npx prisma db pull, to pull schema from db
 - npx prisma migrate, put schema into db
+- npx prisma studio, UI for managing db schema
+
+- Useful links
+https://www.youtube.com/watch?v=gxkwMm_j850&ab_channel=developedbyed
+https://vercel.com/guides/nextjs-prisma-postgres
