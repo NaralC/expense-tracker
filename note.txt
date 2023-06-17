@@ -1,0 +1,4 @@
+- npx prisma init
+- npx prisma generate, to get the connection client
+- npx prisma db pull, to pull schema from db
+- npx prisma migrate, put schema into db
