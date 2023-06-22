@@ -1,5 +1,7 @@
 import { NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
+// import { getServerSession } from "next-auth/next"
+// import { authOptions } from "./auth/[...nextauth]"
 
 export async function GET() {
   try {
@@ -25,12 +27,6 @@ export async function POST() {
     const data = await prisma.post.create({
       data: {
         title: "Test 12345",
-        user: {
-          create: {
-            email: "naral@naral.com",
-            name: "Naral",
-          },
-        },
       },
     });
 

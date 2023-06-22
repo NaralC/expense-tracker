@@ -13,7 +13,6 @@ import {
 } from "@tremor/react";
 
 export default function DashboardExample() {
-
   return (
     <main className="px-12 py-12">
       <Title>Dashboard</Title>

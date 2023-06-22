@@ -10,3 +10,6 @@ Repeat:
 - Useful links
 https://www.youtube.com/watch?v=gxkwMm_j850&ab_channel=developedbyed
 https://vercel.com/guides/nextjs-prisma-postgres
+https://youtu.be/mSUKMfmLAt0 - NextAuth + Prisma + Text Editor
+https://youtu.be/0eu4_lLFkGk - NextAuth + Prisma
+https://youtu.be/DfIDr2jCkHo - Passing server components into client ones
